@@ -1,0 +1,402 @@
+header{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    padding: 7px;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    margin: 0;
+}
+
+#botontitulo{
+    display: inline-block;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0;
+
+}
+
+#botontitulo a{
+    text-decoration: none;
+    color: azure;
+}
+
+
+h1{
+    margin-left: 5px;
+    font-size: 25px;
+    padding-top: 7px;
+}
+
+#navegacion{
+    margin-top: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 16px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #ced0d2;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    text-align: center;
+    background-image: url('../images/leer2.jpg');
+    background-size: cover;
+    margin: 0;
+    font-size: 25px;
+    padding-top: 7px;
+    height: 100vh;
+}
+
+#main2{
+    background-image: url('../images/leer2.jpg');
+    background-size: cover;
+    margin: 0;
+    padding-top: 7px;
+    height: 100vh;
+
+
+}
+
+#main3{
+    background-image: url('../images/leer2.jpg');
+    background-size: cover;
+    margin: 0;
+    height: min-content;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#textomain{
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+.cta-button{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover{
+    background-color: #ced0d2;
+}
+
+.carrousel, #publicidad, #contacto{
+    text-align: center;
+    padding: 50px;
+}
+
+.contenido{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    align-items: center;
+    margin: 5px;
+}
+
+
+#imagen-publicidad {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#imagen-publicidad img {
+    max-width: 10%;
+
+}
+
+#imagen-contacto {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#imagen-contacto img {
+    max-width: 10%;
+
+}
+
+#logimg {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#logimg img {
+    max-width: 10%;
+
+}
+
+  
+  footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+    
+  }
+
+ 
+
+
+#loginblock {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 130px auto;
+    max-width: 300px;
+}
+
+
+.form {
+    text-align: left;
+    
+}   
+
+input[type="email"],
+input[type="password"],input[type="date"],input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+
+button.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button.cta-button:hover {
+    background-color: #ff6666;
+}
+
+#registerblock {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 80px auto;
+    max-width: 400px;
+    
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.warnings{
+    width: 100%;
+    text-align: start;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+
+
+#bloquesrevistas {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+
+.revista {
+    display: flex;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+
+.imagen-revista img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.info-revista {
+    flex: 1;
+}
+
+.info-revista h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.info-revista p {
+    margin: 0 0 10px;
+}
+    
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70%;
+}
+
+.imagen-perfil {
+    margin-right: 20px;
+    border: 2px solid #000000 ;
+}
+
+.imagen-perfil img {
+    max-width: 140px; 
+}
+
+#mis-revistas{
+    margin: 20px;
+}
+
+#bodyrevistas{
+    background-image: url('../images/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+#bodygestion{
+    background-image: url('../images/biblio.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-bottom: 70px;
+}
+
+.cta-button a{
+    text-decoration: none;
+    color: white;
+}
+
+#formulario-creacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: fit-content;
+    margin-bottom: 40px;
+}
+
+#formulario-creacion form {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin-top: 10px; 
+}
+
+#formulario-creacion h2 {
+    font-size: 20px;
+    margin-top: 40px; 
+    padding: 0;
+}
+
+
+
+#formulario-creacion label, #formulario-creacion select {
+    display: block;
+    margin: 10px 0;
+}
+
+#formulario-creacion select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#formulario-creacion .subarea {
+    display: none;
+}
+
+#formulario-creacion button.cta-button {
+    margin-top: 20px;
+}
+
+.error {
+    display: block;
+    color: red;
+    margin-top: 5px; 
+}
+
+#formulario-creacion .subarea {
+    display: block; /* o display: inline-block; según sea necesario */
+}
