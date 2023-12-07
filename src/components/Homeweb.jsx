@@ -40,9 +40,9 @@ const Homeweb = () => {
                     <h3>Proyectos</h3>
                 </div>
             </section>
-            <div id="publicidad">
+            <div id="contacto">
                 <h2>¿Quieres ser parte de esta gran comunidad?</h2>
-                <div id="imagen-publicidad">
+                <div id="imagen-contacto">
                     <img src={pikaimage} alt="Tu imagen publicitaria" />
                 </div>
                 <p>Es tu momento de publicar tu revista científica.</p>

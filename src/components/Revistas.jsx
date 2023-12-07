@@ -17,7 +17,6 @@ const Revistas = () => {
                     <nav>
                         <ul>
                             <li><a href="/revistas">Revistas</a></li>
-                            <li><a href="/registro">Regístrate</a></li>
                             <li><a href="/login">Log in</a></li>
                         </ul>
                     </nav>
